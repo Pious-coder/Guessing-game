@@ -19,7 +19,8 @@ body{
    top: 50%;
    left: 50%;
    text-align: center;
-   background-image: url(assets/cbg.svg);
+   background-color: #6C0F36;
+   box-shadow: 5px 5px 5px 2px #001220;
    background-size: cover;
    border-radius: 10px;
     padding: 4rem 2rem;
