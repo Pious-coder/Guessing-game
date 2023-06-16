@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <div id="game">
+            <i>
+                <img src="think.svg" alt="">
+            </i>
+            <h3>I am thinking of a number between 1 and 100, <br>Can you guess the number?</h3>
+            <div class="inputs">
+                <input type="number" placeholder="00" id="guess">
+               <button id="guessBtn">Guess</button>
+            </div>
+              <p id="guessNum">No. Of Guesses: 0</p>  
+              <p id="guessedNum">Previous Guesses: 0</p>
+        </div>
+        <button id="restart">restart</button>
+        <div class="result">
+            <div id="hint"></div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
